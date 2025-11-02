@@ -262,17 +262,15 @@ interface CarrierRate {
 4. Запушьте в ветку (`git push origin feature/AmazingFeature`)
 5. Откройте Pull Request
 
-## 📝 Лицензия
-
-Этот проект лицензирован под MIT License - см. файл [LICENSE](LICENSE) для деталей.
-
 ## 👥 Авторы
 
-- Ваше имя - [@ваш-github](https://github.com/ваш-username)
+- Bekzat
+- Diyar
+- Didar
 
 ## 📧 Контакты
 
-Вопросы и предложения: your.email@example.com
+Вопросы и предложения: bekzatuteulin@gmail.com
 
 ## 🙏 Благодарности
 
