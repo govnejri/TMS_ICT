@@ -1,0 +1,92 @@
+name: Bug Report
+description: Сообщить об ошибке в приложении
+title: "[BUG]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Спасибо за отчет об ошибке! Пожалуйста, заполните форму ниже.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Описание ошибки
+      description: Четкое и краткое описание ошибки
+      placeholder: Расскажите, что пошло не так...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Шаги для воспроизведения
+      description: Как воспроизвести ошибку?
+      placeholder: |
+        1. Перейти на '...'
+        2. Нажать на '...'
+        3. Увидеть ошибку
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Ожидаемое поведение
+      description: Что должно было произойти?
+      placeholder: Опишите ожидаемое поведение...
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Фактическое поведение
+      description: Что произошло на самом деле?
+      placeholder: Опишите фактическое поведение...
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Скриншоты
+      description: Если применимо, добавьте скриншоты
+      placeholder: Перетащите изображения сюда...
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Браузер
+      description: В каком браузере возникла проблема?
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Версия браузера
+      description: Какая версия браузера?
+      placeholder: "например, 120.0.6099.109"
+
+  - type: input
+    id: os
+    attributes:
+      label: Операционная система
+      description: На какой ОС возникла проблема?
+      placeholder: "например, Windows 11, macOS 14, Ubuntu 22.04"
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Дополнительный контекст
+      description: Любая другая информация об проблеме
+      placeholder: Добавьте любой другой контекст об проблеме здесь...
